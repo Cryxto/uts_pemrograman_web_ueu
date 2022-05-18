@@ -23,7 +23,7 @@ database.default.password = (isi password jika ada)<br>
 database.default.hostname = (isi jika hostname berbeda, jika menggunakan local environment biasanya memakai localhost atau 127.0.0.1)<br>
 
 ## Import Database
-import script database uts_crud_beasiswa yang sudah tersedia, pilih salah satu antara db_uts_crud_beasiswa_1 atau b_uts_crud_beasiswa_2 (jika satu tidak bisa maka bisa coba lainnya). Lalu ubah : <br>
+import script database uts_crud_beasiswa yang sudah tersedia, pilih salah satu antara uts_crud_beasiswa_navicat atau uts_crud_beasiswa_php_my_admin (jika satu tidak bisa maka bisa coba lainnya). Lalu ubah : <br>
 
 database.default.database = (samakan dengan nama database saat diimpor, uts_crud_beasiswa)<br>
 
