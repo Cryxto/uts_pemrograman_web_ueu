@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-17 23:14:56 --> Undefined index: kota
+#0 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/app/Views/pages/contact.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/View/View.php(210): include('/mnt/f/Web-deve...')
+#2 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/app/Controllers/Pages.php(39): view()
+#5 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/f/Web-development-and-aplication/phpbasedweb/UTS_P_Web_Yoh_Bagas_20200801179/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/mnt/f/Web-deve...')
+#10 {main}
